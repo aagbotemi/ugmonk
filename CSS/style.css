@@ -1,0 +1,226 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.home-page img {
+    width: 100%;
+    margin-top: 7.65rem;
+}
+
+/*MISSION*/
+.mission {
+	overflow-x: hidden;
+	padding: 5rem 6rem;
+	background: #f9f6f6;
+}
+
+.mission .text-center {
+	font-size: 2rem;
+	padding: 0rem 10rem 3rem 10rem;
+}
+
+.mission a .row .col-md-6 .mens {
+	margin-right: 2rem;
+}
+
+.mission a .row .col-md-6 .link1 {
+	width: 6.1rem;
+	border-bottom: 1px solid #000;
+}
+
+.mission a .row .col-md-6 .link {
+	width: 7.7rem;
+	border-bottom: 1px solid #000;
+}
+
+.mission a .col-12 .link {
+	width: 7.1rem;
+	border-bottom: 1px solid #000;
+}
+
+.mission a .row .col-md-6 p i, .mission a .col-12 p i {
+	font-size: 11px;
+	color: #000;
+}
+
+.backstory .header {
+	font-size: 2rem;
+}
+
+.backstory .body-text {
+	padding: 0rem 11rem;
+	font-size: 15px;
+	margin-bottom: 4rem;
+}
+
+.backstory .video iframe {
+	width: 100%;
+	height: 37rem;
+}
+
+/*BACKSTORY*/
+.backstory {
+	padding: 6rem;
+}
+
+.backstory .header {
+	font-size: 2rem;
+}
+
+.backstory .body-text {
+	padding: 0rem 11rem;
+	font-size: 15px;
+	margin-bottom: 4rem;
+}
+
+.backstory .video iframe {
+	width: 100%;
+	height: 37rem;
+}
+
+/*GATHER*/
+.gather {
+	overflow: hidden;
+	background: #fffcfc;
+	padding: 8rem 6rem 8rem 6rem;
+}
+
+.gather .row {
+	height: 100%;
+}
+
+.gather .row .col-md-4 {
+	background: #fff;
+	padding: 5rem 3.5rem 3rem 3.5rem;
+}
+
+.gather .row .col-md-4 a .header {
+	font-size: 30px;
+}
+
+.gather .row .col-md-4 a .link {
+	width: 7.1rem;
+	border-bottom: 1px solid #000;
+}
+
+.gather .row .col-md-4 a .link i {
+	font-size: 11px;
+	color: #000;
+}
+
+.gather .row .col-md-8 a img {
+	margin-left: -0.92rem;
+	width: 103%;
+	height: 100%;
+}
+
+/*FOLLOW US ON INSTAGRAM*/
+.instagram {
+	background: #fcfbfb;
+	font-size: 2rem;
+	padding: 5rem 0rem 7.5rem 0rem;
+	overflow-x: hidden;
+}
+
+.instagram p {
+	font-size: 2rem;
+}
+
+.instagram .col {
+	overflow-x: scroll;
+}
+
+.instagram .col a img {
+	margin: 1px;
+	width: 10rem;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.43);
+}
+
+/*STAY IN THE LOOP*/
+.loop {
+	background: #e6e4e4;
+	padding: 5rem 18rem 8rem 18rem;
+}
+
+.loop .heading {
+	font-size: 2rem;
+	color: #1a1a1a;
+}
+
+.loop form input {
+	background: #ffffff;
+	width: 70%;
+	outline: none;
+	padding: 10px;
+	border: 1px solid #000;
+}
+
+.loop form button {
+	background: #fff;
+	width: 17%;
+	height: 46px;
+	border: 1px solid #000;
+	color: #fff;
+	margin-left: -5px;
+}
+
+.loop form button:hover {
+	background: #4e4e4e;
+	outline: none;
+}
+
+.loop form button:hover i {
+	color: #fff;
+}
+
+.loop form button i {
+	color: #000;
+}
+
+/*FOOTER*/
+footer {
+	padding: 3rem 5rem 3rem 5rem;
+	color: #000;
+}
+
+.footer h3 {
+	font-size: 1.2rem;
+	margin-bottom: 18px;
+	opacity: 0.8;
+}
+
+.footer p {
+	font-size: 15px;
+	margin: 0rem 0rem 0rem -2.5rem;
+}
+
+.footer h5 {
+	color: #252525;
+}
+
+.footer ul {
+	list-style: none;
+	margin-left: -2.5rem;
+}
+
+.footer ul li a{
+	margin: 10px 0;
+	font-size: 15px;
+	color: #252525 !important;
+}
+
+.footer ul li a:hover {
+	text-decoration: none;
+}
+
+.footer .copyright .social-links a i {
+	color: #000;
+	font-size: 2.5rem;
+	margin-left: 10px;
+}

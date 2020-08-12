@@ -1,0 +1,105 @@
+/*SHOWCASE*/
+.showcase-nav {
+    overflow: hidden;
+}
+
+nav .row .col a {
+    color: #969696;
+}
+
+nav .row .col a:focus, nav .row .col a:hover {
+    color: #000;
+    border-bottom: 1px solid #000;
+} 
+
+.showcase {
+	overflow-x: hidden;
+    padding: 3rem;
+    margin-top: -1.5rem;
+}
+
+.showcase .row .col-md-3 a p {
+    font-size: 0.92rem;
+}
+
+.showcase .row .col-md-3 a p .amount2 {
+    color: #ff0000;
+}
+
+.showcase .row .col-md-3 a .amount {
+    margin-top: -0.97rem;
+}
+
+.showcase .row .col-md-3 a img {
+    position: relative;
+}
+
+.showcase .row .col-md-3 a .tag {
+    background: #f0a597;
+    position: absolute;
+    top: 0.5rem ;
+    left: 1.5rem;
+    padding: 5px;
+    line-height: 1;
+    font-size: 11px;
+}
+
+.showcase .row .col-md-3 a .tag1 {
+    background: #e9b6ad;
+    position: absolute;
+    top: 0.5rem ;
+    left: 1.5rem;
+    padding: 10px;
+    line-height: 1;
+    font-size: 13px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 13px 5px 0px 5px;
+}
+
+.showcase .shop {
+    background: #1a1a1a;
+    color: #fff;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    width: 36%;
+    margin: auto;
+    font-size: 1.3rem;
+    padding: 1rem;
+    outline: none;
+}
+
+.showcase .shop:hover {
+    background: #dad8d8;
+    color: #1a1a1a;
+    font-weight: bold;
+}
+
+.showcase .shop i {
+    font-size: 0.8rem;
+    margin-left: 0.7rem;
+}
+
+@media only screen and (max-width:767px) {
+    .showcase .shop {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .showcase .shop {
+        width: 60%;
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .showcase .shop {
+        width: 90%;
+    }
+    .showcase .shop i {
+        display: none;
+    }
+}

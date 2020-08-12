@@ -1,0 +1,154 @@
+@media only screen and (max-width: 995px) {
+	.mission {
+		padding: 4rem 4.8rem;
+	}
+	.mission .text-center {
+		font-size: 1.5rem;
+		padding: 0rem 1.5rem 3rem 1.5rem;
+	}
+	.gather .row .col-md-4 {
+		padding: 2rem 2rem 2.5rem 3rem !important;
+	}
+	.backstory {
+		padding: 2.5rem;
+	}
+	.backstory .body-text {
+		padding: 0rem 1rem;
+		margin-bottom: 2.5rem;
+	}
+	.backstory .video iframe {
+		height: 28rem;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.showcase {
+        padding: 1.5rem;
+    }
+    .showcase .row .col-md-3 a img {
+        width: 90%;
+        height: 100vh;
+    }
+	.mission {
+		padding: 2.5rem;
+	}
+	.mission .text-center {
+		font-size: 1.3rem;
+		padding: 0rem 1rem 1.8rem 1rem;
+	}
+	.mission a .row .mens1 {
+		margin-bottom: 2rem;
+	}
+	.mission a .row .col-md-6 img {
+		margin-left: 0rem;
+		margin-right: 0rem;
+		height: 60vh;
+	}
+	.mission a .row .col-12 img {
+		height: 60vh;
+	}
+	.gather {
+		padding: 3rem 2rem 3rem 2rem !important;
+	}
+	.gather .row .col-md-4 a {
+		padding: 1rem 1rem 1rem 2rem !important;
+	}
+	.gather .row .col-md-8 a img {
+		width: 106%;
+	}
+	.gather .row .col-md-4 a .explain {
+		font-size: 15px;
+	}
+	.copyright {
+		text-align: center !important;
+	}
+	.instagram p {
+		font-size: 1.3rem;
+	}
+	.loop {
+		padding: 2rem 3rem 3rem 3rem !important;
+	}
+	.backstory .video iframe {
+		height: 24rem;
+	}
+}
+
+@media only screen and (max-width:630px) {
+    nav .row .col {
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+    nav .row .col a {
+        display: inline;
+        text-align: center;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width:620px) {
+	.gather .row .col-md-8 a img {
+		width: 108%;
+		/* height: 50vh; */
+	}
+	.backstory {
+		padding: 1rem;
+	}
+	.backstory .body-text {
+		padding: 0rem 0.5rem;
+		margin-bottom: 1rem;
+	}
+	.backstory .video iframe {
+		height: 18rem;
+	}
+	footer {
+		padding: 3rem 2rem 1rem 3.5rem !important;
+	}
+}
+
+@media only screen and (max-width: 570px) {
+    .showcase .row .col-md-3 a img {
+        width: 100%;
+        height: 60vh;
+	}
+	.loop .heading {
+		font-size: 1.5rem;
+	}
+	.loop .para {
+		font-size: 0.8rem;
+	}
+}
+
+@media only screen and (max-width:400px) {
+	.showcase {
+		padding: 0.8rem;
+	}
+	.showcase .row .col-md-3 a img {
+        height: 45vh;
+    }
+	.mission {
+		padding: 1.7rem 1rem;
+	}
+	.mission .text-center {
+		font-size: 1.2rem;
+		padding: 0rem 0.5rem 1rem 0.5rem;
+	}
+	.backstory .video iframe {
+		height: 14rem;
+	}
+	.gather {
+		padding: 2.3rem 1.2rem 2.3rem 1.2rem;
+	}
+}
+
+@media only screen and (max-width:350px) {
+	.backstory .video iframe {
+		height: 14rem;
+	}
+	.instagram p {
+		margin-top: -3rem;
+		margin-bottom: -2rem;
+	}
+	.footer .copyright {
+		padding: 0rem;
+	}
+}
