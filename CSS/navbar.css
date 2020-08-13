@@ -23,6 +23,14 @@
     color: #d6d6d6 !important;
 }
 
+.sticky .line {
+    background: #d6d6d6;
+}
+
+.sticky .navbar-toggler {
+    border: 2px solid #d6d6d6 !important;
+}
+
 .navbar-brand {
     font-family: 'Recursive', sans-serif;
     font-size: 2rem;
@@ -96,14 +104,14 @@ nav .nav-minor a {
     .dropdown .dropdown-menu .image {
         display: none;
     }
-    nav .nav-minor {
+    .navbar .nav-minor {
         margin-right: 1rem;
     }
 }
 
 
 @media only screen and (max-width: 600px) {
-    nav .nav-minor .journal, nav .nav-minor .search, nav .nav-minor .login {
+    .navbar .nav-minor .journal, nav .nav-minor .search, nav .nav-minor .login {
         display: none;
     }
 }

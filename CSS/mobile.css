@@ -1,4 +1,7 @@
 @media only screen and (max-width: 995px) {
+	.navbar .navbar-toggler {
+		margin-left: 2rem;
+	}
 	.mission {
 		padding: 4rem 4.8rem;
 	}
@@ -22,6 +25,9 @@
 }
 
 @media only screen and (max-width: 767px) {
+	.showcase-nav {
+		margin-bottom: 1rem;
+	}
 	.showcase {
         padding: 1.5rem;
     }
@@ -48,10 +54,10 @@
 		height: 60vh;
 	}
 	.gather {
-		padding: 3rem 2rem 3rem 2rem !important;
+		padding: 1rem !important;
 	}
 	.gather .row .col-md-4 a {
-		padding: 1rem 1rem 1rem 2rem !important;
+		padding: 0.1rem 0.4rem !important;
 	}
 	.gather .row .col-md-8 a img {
 		width: 106%;
@@ -74,11 +80,20 @@
 }
 
 @media only screen and (max-width:630px) {
-    nav .row .col {
+	.navbar {
+		padding: 0.8rem 0rem 1.5rem 0rem;
+	}
+	.sticky {
+		padding: 0rem;
+	}
+	.home-page img {
+		margin-top: 6rem;
+	}
+    .showcase-nav .row .col {
         overflow-x: scroll;
         white-space: nowrap;
     }
-    nav .row .col a {
+    .showcase-nav .row .col a {
         display: inline;
         text-align: center;
         font-size: 13px;
@@ -106,6 +121,9 @@
 }
 
 @media only screen and (max-width: 570px) {
+	.home-page img {
+		margin-bottom: -2rem;
+	}
     .showcase .row .col-md-3 a img {
         width: 100%;
         height: 60vh;
@@ -118,7 +136,29 @@
 	}
 }
 
+@media only screen and (max-width:430px) {
+	.home-page img {
+		height: 35vh;
+		margin-top: 4.5rem;
+	}
+	.showcase-nav {
+		margin-bottom: 0.5rem;
+	}
+}
+
 @media only screen and (max-width:400px) {
+	.navbar {
+		padding: 0.5rem 0rem 0.65rem 0rem;
+	}
+	.navbar .navbar-toggler {
+		margin-left: 1.2rem;
+	}
+	.home-page img {
+		margin-top: 3.2rem;
+	}
+	.showcase-nav {
+		margin-bottom: 1rem;
+	}
 	.showcase {
 		padding: 0.8rem;
 	}
@@ -134,9 +174,6 @@
 	}
 	.backstory .video iframe {
 		height: 14rem;
-	}
-	.gather {
-		padding: 2.3rem 1.2rem 2.3rem 1.2rem;
 	}
 }
 
