@@ -25,6 +25,9 @@
 }
 
 @media only screen and (max-width: 767px) {
+    .navbar .nav-minor {
+        margin-right: 1rem;
+    }
 	.showcase-nav {
 		margin-bottom: 1rem;
 	}
@@ -34,6 +37,12 @@
     .showcase .row .col-md-3 a img {
         width: 90%;
         height: 100vh;
+	}
+	.showcase .shop {
+        font-size: 1rem;
+    }
+	.dropdown .dropdown-menu .image {
+        display: none;
     }
 	.mission {
 		padding: 2.5rem;
@@ -120,6 +129,12 @@
 	}
 }
 
+@media only screen and (max-width: 600px) {
+    .navbar .nav-minor .journal, nav .nav-minor .search, nav .nav-minor .login {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 570px) {
 	.home-page img {
 		margin-bottom: -2rem;
@@ -136,6 +151,13 @@
 	}
 }
 
+@media only screen and (max-width:500px) {
+    .showcase .shop {
+        width: 60%;
+        font-size: 0.9rem;
+    }
+}
+
 @media only screen and (max-width:430px) {
 	.home-page img {
 		height: 35vh;
@@ -144,6 +166,24 @@
 	.showcase-nav {
 		margin-bottom: 0.5rem;
 	}
+	.navbar-brand {
+        font-size: 1.2rem;
+        margin-left: auto;
+    }
+    nav .nav-minor .journal, nav .nav-minor .search, nav .nav-minor .login {
+        display: none;
+    }
+    nav .nav-minor a {
+        display: none;
+    }
+    .line {
+        width: 10px;
+        height: 1px;
+        margin: 2px 0;
+    }
+    .navbar .navbar-toggler {
+        width: 20px;
+    }
 }
 
 @media only screen and (max-width:400px) {
@@ -164,6 +204,12 @@
 	}
 	.showcase .row .col-md-3 a img {
         height: 45vh;
+	}
+	.showcase .shop {
+        width: 90%;
+    }
+    .showcase .shop i {
+        display: none;
     }
 	.mission {
 		padding: 1.7rem 1rem;

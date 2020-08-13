@@ -81,25 +81,3 @@ nav .row .col a:focus, nav .row .col a:hover {
     font-size: 0.8rem;
     margin-left: 0.7rem;
 }
-
-@media only screen and (max-width:767px) {
-    .showcase .shop {
-        font-size: 1rem;
-    }
-}
-
-@media only screen and (max-width:500px) {
-    .showcase .shop {
-        width: 60%;
-        font-size: 0.9rem;
-    }
-}
-
-@media only screen and (max-width:400px) {
-    .showcase .shop {
-        width: 90%;
-    }
-    .showcase .shop i {
-        display: none;
-    }
-}
