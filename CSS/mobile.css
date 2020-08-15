@@ -88,6 +88,12 @@
 	}
 }
 
+@media only screen and (max-width: 632px) {
+    .navbar .nav-minor .journal, nav .nav-minor .search, nav .nav-minor .login {
+        display: none;
+    }
+}
+
 @media only screen and (max-width:630px) {
 	.navbar {
 		padding: 0.8rem 0rem 1.5rem 0rem;
@@ -127,12 +133,6 @@
 	footer {
 		padding: 3rem 2rem 1rem 3.5rem !important;
 	}
-}
-
-@media only screen and (max-width: 600px) {
-    .navbar .nav-minor .journal, nav .nav-minor .search, nav .nav-minor .login {
-        display: none;
-    }
 }
 
 @media only screen and (max-width: 570px) {
