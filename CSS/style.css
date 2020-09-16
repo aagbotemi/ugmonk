@@ -151,11 +151,6 @@ body {
 	width: 50%;
 }
 
-/* .image {
-	width: 100%;
-	height: auto;
-  } */
-
 .instagram .col a .bottom {
 	transition: .5s ease;
 	opacity: 0;
@@ -180,7 +175,6 @@ body {
 	background-color: rgb(0, 0, 0);
 	opacity: 0.75;
 	color: white;
-	/* width: 100%; */
 	font-size: 1rem;
 	padding: 2px 4px;
 }
